@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <h1> Weather App Dashboard </h1>
+    </header>
+    <main>
+
+        <div class="citySearch">
+            <h1>Search for a City:</h1>
+            <input type="text" id="userInput">
+            <button class="searchButton">Search</button>
+        <div class="cityButtons"></div>
+
+        </div>
+        <div class="cityInfo">
+            <div class="weatherMain">
+             <img class="hidden" id="img1" alt="current weather" width="100px" height="100px">
+                <h1 class="currentDate"></h1>
+                <h1 class="displayCity" id="displayCity">City</h1>
+                <ul class="list">
+                    <li class="temp1">Temp</li>
+                    <li class="wind1">Wind</li>
+                    <li class="humid1">Humidity</li>
+                    <li class="uv1">Uv</li>
+                </ul>
+            </div>
+            <h1 class="fiveDay">5-Day Forecast</h1>
+            
+            <div class="fiveDayContainer">
+                
+
+               
+            </div>
+
+
+
+        </div>
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
